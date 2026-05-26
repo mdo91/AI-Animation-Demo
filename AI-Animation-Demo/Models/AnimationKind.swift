@@ -12,6 +12,7 @@ enum AnimationKind: String, Identifiable, CaseIterable, Hashable {
     case analyzingTheText = "Analyzing the text"
     case summerizingTheText = "Summerizing the text"
     case processingLabel = "Processing label"
+    case sequentialDotGrid = "Sequential dot grid"
 
     var id: String { rawValue }
 
@@ -23,6 +24,7 @@ enum AnimationKind: String, Identifiable, CaseIterable, Hashable {
         case .analyzingTheText: "circle.hexagongrid.fill"
         case .summerizingTheText: "doc.text"
         case .processingLabel: "arrow.triangle.2.circlepath"
+        case .sequentialDotGrid: "circle.grid.3x3.fill"
         }
     }
 
@@ -41,6 +43,8 @@ enum AnimationKind: String, Identifiable, CaseIterable, Hashable {
             SummerizingTextDemoView()
         case .processingLabel:
             ProcessingLabelDemoView()
+        case .sequentialDotGrid:
+            SequentialDotGridDemoView()
         }
     }
 }
