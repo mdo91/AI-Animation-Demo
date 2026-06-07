@@ -94,6 +94,9 @@ PulsingOrb(size: 140)
 
 Typography follows iOS HIG conventions: `.subheadline` with `.regular` or `.medium` weight for status labels, `Color.secondary` for muted copy.
 
+## Support (optional)
+if you find this repo useful for your future or current projects buy me coffe at [Buy me Coffee](https://buymeacoffee.com/mdo91)
+
 ## License
 
 MIT
